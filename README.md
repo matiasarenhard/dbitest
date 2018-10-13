@@ -1,3 +1,7 @@
+# Tutorial
+  ```
+   https://www.youtube.com/watch?v=tMcXCrlfRyc&feature=youtu.be
+  ```
 # Setup
    ```
   git clone git@github.com:matiasarenhard/dbitest.git
@@ -27,6 +31,6 @@ rails s
 Url Configs :
 ```
  token: your Token
- tag: you can pass more tags using `,` example: `tag=tea,books`.
- http://localhost:3000/api/v1/quotes/index?token=slSuiDLWgHxdnSVQdzW8kwtt&tag=tea,books
+ tag: you can pass more tags using `,` example: `tag=tea,humor`.
+ http://localhost:3000/api/v1/quotes/index?token=slSuiDLWgHxdnSVQdzW8kwtt&tag=tea,humor
  ```
