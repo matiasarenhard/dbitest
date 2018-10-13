@@ -9,6 +9,7 @@ gem 'puma', '~> 3.11'
 
 gem 'nokogiri', '~> 1.6', '>= 1.6.8'
 gem 'mechanize', '~> 2.7', '>= 2.7.5'
+gem 'fast_jsonapi', git: "https://github.com/Netflix/fast_jsonapi", branch: "dev"
 
 gem 'mongoid', '~> 7.0'
 gem 'bson_ext'
