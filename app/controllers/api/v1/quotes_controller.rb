@@ -3,8 +3,6 @@ require 'open-uri'
 require 'rubygems'
 require 'mechanize'
 
-#User.create(name: 'user', api_key: SecureRandom.base64.tr('+/=', 'Qrt'))
-
 class Api::V1::QuotesController < ApplicationController
   def index
     @quotes_results = Array.new
