@@ -1,7 +1,7 @@
 # Setup
    ```
   git clone git@github.com:matiasarenhard/dbitest.git
- cd dbistest
+ cd dbitest
  bundle install
  rake db:create
  rake db:migrate
